@@ -1,13 +1,29 @@
+:root {
+  --basic-font: "Nunito", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --primary-color: #142d4c;
+  --secondary-color: #9fd3c7;
+}
+
+.hero {
+  background: #ececec;
+  color: var(--primary-color);
+  padding: 60px;
+  font-family: var(--basic-font);
+}
+
 h1 {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
 }
 
-h3 {
-  font-family: "Nunito", sans-serif;
-  font-weight: 400;
+.btn {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 10px 20px;
 }
 
-.fa-envelope {
-  font-size: 30px;
+.btn:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
