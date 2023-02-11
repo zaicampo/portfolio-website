@@ -1,14 +1,15 @@
 :root {
   --basic-font: "Nunito", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  --primary-color: #142d4c;
-  --secondary-color: #9fd3c7;
+  --primary-color: #141010;
+  --secondary-color: #f70776;
 }
 
 .hero {
   background: #ececec;
   color: var(--primary-color);
-  padding: 60px;
+  padding: 90px;
+  margin: 40px;
   font-family: var(--basic-font);
 }
 
@@ -27,4 +28,9 @@ h1 {
 .btn:hover {
   background-color: var(--primary-color);
   color: var(--secondary-color);
+}
+
+.about-section,
+h1 {
+  font-size: 80px;
 }
