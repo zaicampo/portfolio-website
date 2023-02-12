@@ -64,6 +64,10 @@ nav li .active {
   color: var(--secondary-color);
 }
 
+.contact-info {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
