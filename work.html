@@ -37,36 +37,37 @@
       src="https://kit.fontawesome.com/1041b0785f.js"
       crossorigin="anonymous"
     ></script>
-    <title>My Projects - Zaira Campo Arias</title>
+    <title>My Projects - Zaira Campo Arias Front-End Developer</title>
+    <meta name="description" content="This page shows the main projects I have been working on. Most of then are just pictures but the porpuse of this page is to show you the techniques I learned with SheCodes.">
   </head>
   <body>
-     <nav class="d-flex justify-content-between">
-      <a href="/">
+      <nav class="d-flex justify-content-between">
+      <a href="/" title="SheCodes Logo">
         <img
           src="/images/Largo-logo.png"
           class="d-none d-md-block"
           width="150px"
-          alt=""
+          alt="SheCodes Logo - Big Scale"
         />
         <img
           src="/images/Logo.jpeg"
           class="d-block d-md-none"
           width="60px"
-          alt=""
+          alt="SheCodes Logo - Small Scale"
         />
       </a>
       <ul>
         <li>
-          <a href="/" >Home</a>
+          <a href="/"  title="Homepage">Home</a>
         </li>
         <li>
-          <a href="/about.html">About</a>
+          <a href="/about.html" title="About page">About</a>
         </li>
         <li>
-          <a href="/work.html" class="active">Projects</a>
+          <a href="/work.html" class="active" title="My projects page">Projects</a>
         </li>
         <li>
-          <a href="/contact.html">Contact</a>
+          <a href="/contact.html" title="Contact me page">Contact</a>
         </li>
       </ul>
     </nav>
@@ -78,31 +79,31 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-md-6 text-center">
-                <img src="/images/yoga.png" class="img-fluid rounded" width="400px" alt="Yoga image">
+                <img src="/images/yoga.png" class="img-fluid rounded" width="400px" alt="Yoga image" title="Yoga App picture">
                 <h3 class="pt-3">Yoga Project</h3>
                 <p>Built with HTML and CSS</p>
             </div>
             <div class="col-md-6 text-center">
-                <img src="/images/weather.png" class="img-fluid rounded" width="400px" alt="Yoga image">
+                <img src="/images/weather.png" class="img-fluid rounded" width="400px" alt="Weather image" title="Weather App picture">
                 <h3 class="pt-3">Weather Project</h3>
                 <p>Built with HTML and CSS</p>
             </div>
         </div>
         <div class="row mb-5">
             <div class="col-md-6 text-center">
-                <img src="/images/yogurt.png" class="img-fluid rounded" width="400px" alt="Yoga image">
+                <img src="/images/yogurt.png" class="img-fluid rounded" width="400px" alt="Yogurt image" title="Yogurt App picture">
                 <h3 class="pt-3">Yogurt Project</h3>
                 <p>Built with HTML and CSS</p>
             </div>
             <div class="col-md-6 text-center">
-                <img src="/images/Dictionary App.png" class="img-fluid rounded" width="400px" alt="Yoga image">
+                <img src="/images/Dictionary App.png" class="img-fluid rounded" width="400px" alt="Dictionary App image" title="Dictionary App picture">
                 <h3 class="pt-3">Dictionary Project</h3>
                 <p>Built with HTML and CSS</p>
             </div>
         </div>
        
     </div>
-    <section class="footer-section text-start">
+    <section class="footer-section text-start d-none d-md-block">
       <div class="container">
         <div class="row">
           <div class="col-2"></div>
@@ -111,7 +112,7 @@
             <p class="">Let's work together</p>
           </div>
           <div class="col-md-6 text-center">
-            <button class="btn fs-5">Contact Me</button>
+            <button class="contact-button btn fs-5">Contact Me</button>
             <div class="col-2"></div>
           </div>
         </div>
@@ -121,13 +122,25 @@
       <a
         href="mailto:zaira.campo@yahoo.com"
         class="text-decoration-none text-black fs-2 mb-3"
+        target="_blank"
+        title="Zaira's email"
         >zaira.campo@yahoo.com</a
       >
       <div>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram" title="Instagram Profile"></i>
+        <i class="fa-brands fa-github" title="GitHub Profile"></i>
+        <i class="fa-brands fa-twitter" title="Twitter Profile"></i>
       </div>
     </section>
+     <p class="text-center mt-4">
+      🙌 This website was coded by Zaira Campo, and is
+      <a
+        href="https://github.com/zaicampo/portfolio-website"
+        target="_blank"
+        title="Open Source Code"
+      >
+        open-sourced</a
+      >
+    </p>
   </body>
 </html>
