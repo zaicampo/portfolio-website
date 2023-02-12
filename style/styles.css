@@ -93,6 +93,10 @@ i:hover {
   color: var(--third-color);
 }
 
+.coding-source {
+  margin: 50px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
