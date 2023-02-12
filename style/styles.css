@@ -3,10 +3,12 @@
   --secondary-font: "Raleway", sans-serif;
   --primary-color: #141010;
   --secondary-color: #f70776;
+  --third-color: #ececec;
 }
 
-.hero {
-  background: #ececec;
+.hero,
+.footer-section {
+  background: var(--third-color);
   color: var(--primary-color);
   padding: 50px;
   margin: 30px;
@@ -21,13 +23,14 @@ h1 {
 
 .btn {
   background-color: var(--secondary-color);
-  color: white;
+  color: var(--third-color);
   padding: 10px 20px;
+  transition: all 100ms ease-in-out;
 }
 
 .btn:hover {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--third-color);
 }
 
 .main-section {
@@ -66,6 +69,23 @@ nav li .active {
 
 .contact-info {
   color: var(--secondary-color);
+}
+
+.footer-section .info-contact,
+i {
+  margin: 20px;
+  color: var(--secondary-color);
+  background: var(--third-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+.footer-section .info-contact,
+i:hover {
+  background-color: var(--primary-color);
+  color: var(--third-color);
 }
 
 @media (max-width: 900px) {
